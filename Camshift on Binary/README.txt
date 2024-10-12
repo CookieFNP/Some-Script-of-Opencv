@@ -1,0 +1,5 @@
+The Camshift algorithm, whose full name is "Continuously Adaptive Mean-SHIFT," is a continuously adaptive version of the MeanShift algorithm. It is primarily used for object tracking in video sequences by iteratively adjusting the size and position of the search window to locate the target.
+
+The Camshift algorithm relies on the color histogram model of the target for tracking. It first calculates the histogram of the H component in the HSV color space for the target, and then uses histogram backprojection to obtain the probability distribution of the target pixels. However, since binary images only contain black and white colors, it is not possible to extract an effective color histogram model, which makes the Camshift algorithm unable to be directly applied to binary images.
+
+In some cases, we can extract the binary image of the target through appropriate thresholding and preprocessing, and then apply pseudo-color transformation to assign colors to the black and white image, in order to use the Camshift algorithm.
