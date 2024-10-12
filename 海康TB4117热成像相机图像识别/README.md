@@ -5,6 +5,6 @@
 
 效果：
 
-![green](C:\Users\ASUS\Desktop\git up\海康TB4117热成像相机图像识别\green.png)
+![red](https://github.com/user-attachments/assets/e7ba598f-f578-410f-b458-c44cad8b54d7)
 
-![red](C:\Users\ASUS\Desktop\git up\海康TB4117热成像相机图像识别\red.png)
+![green](https://github.com/user-attachments/assets/674293ff-1b75-4bba-9b9c-114a944aa789)
